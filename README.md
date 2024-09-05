@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 The **Gemma Model Document Q&A** is a project designed to read and process documents, convert them into vectors, and perform question answering based on the document's content. This project leverages several key technologies such as **Langchain**, **FAISS**, **Streamlit**, and others to enable efficient vector search and natural language understanding.
-
+![Gemma Document Q&A Screenshot](https://github.com/adityashakya836/Gemma-Document-QA-Bot/blob/main/Screenshot%202024-09-05%20170246.png)
 ## ✨ Features
 - 📝 **Document Processing**: Reads documents and extracts their content for processing.
 - 🔍 **Vector Embedding**: Converts document text into vector representations using embedding models.
