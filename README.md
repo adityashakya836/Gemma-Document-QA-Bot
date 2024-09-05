@@ -31,14 +31,30 @@ This project uses the following Python packages:
 - `langchain_google_genai`: 🔍 Integration with Google’s Generative AI models for enhanced question-answering capabilities.
 
 ## 🛠️ How It Works
-1. **📥 Document Input**: The user uploads a document (e.g., PDF), which is read and processed using **PyPDF2**.
+1. **📥 Document Input**: Read and processed the document using **PyPDF2**.
 2. **🔗 Vectorization**: The document is converted into vector embeddings using **Langchain** and **FAISS** for efficient searching.
 3. **❓ Question Answering**: The user inputs a query, which is processed by the system. Relevant document sections are retrieved based on vector similarity, and the answer is provided.
 4. **💻 Web Interface**: The **Streamlit** interface allows the user to interact with the system, upload documents, and ask questions.
 
-## 🛠️ Installation
+## 🛠️ Setup
+1. Clone The Repository
+   ```bash
+   git clone https://github.com/adityashakya836/Gemma-Document-QA-Bot.git
+    cd Gemma-Document-QA-Bot
+2. Create Virtual Environment
+   ```bash
+   python -m venv venv
+3. Activate Virtual Environment
+   ```bash
+   venv\Scripts\activate
+4. Install requirements.txt
+   ```bash
+   pip install requirements.txt
+5. Run app.py file
+   ```bash
+   streamlit run app.py
 
-To install the required dependencies, run:
-
-```bash
-pip install faiss-cpu groq langchain_groq PyPDF2 langchain_google_genai langchain streamlit langchain_community pypdf
+## 🌱 Future Enhancements
+- 📂 Adding support for more document formats (Word, Excel, etc.).
+- 🤖 Expanding the language models for more precise answers.
+- 🌟 Improving the interface for better user experience.
